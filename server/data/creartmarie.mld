@@ -1,0 +1,4 @@
+user (id INTEGER, first_name TEXT, last_name TEXT, email TEXT, country TEXT, city TEXT, street TEXT, created_at TIMESTAMPTZ, updated_at TIMESTAMPTZ)
+product (id INTEGER, name TEXT, description TEXT, #category(id), stock INTEGER)
+category (id INTEGER, name TEXT)
+product_has_category (#product(id) INTEGER, #category(id) INTEGER, created_at TIMESTAMPTZ)

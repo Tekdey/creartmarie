@@ -1,0 +1,4 @@
+USER: first_name, last_name, email, country, city, street
+PRODUCT: name, description, stock
+possede, 1N PRODUCT, 0N CATEGORY
+CATEGORY: name
