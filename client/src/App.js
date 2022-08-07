@@ -1,11 +1,19 @@
 import "./_reset.css";
 import "./index.css";
+import Navbar from "./components/navbar/Navbar";
+import Main from "./components/main/Main";
+
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-red-500">Hello world</h1>
-    </div>
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </>
   );
 }
 
