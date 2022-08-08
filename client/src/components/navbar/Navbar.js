@@ -43,19 +43,6 @@ const Navbar = () => {
           </ul>
         )}
       </div>
-      <header className="bg-gray-900 flex flex-col justify-center items-center">
-        <img
-          src="/assets/image/logo_blanc_red-zoom.png"
-          className="w-96"
-          alt="logo"
-        />
-        <form action="">
-          <input type="text" />
-          <button type="button" className="bg-red-500">
-            Rechercher
-          </button>
-        </form>
-      </header>
     </nav>
   );
 };
