@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const CardCollection = ({ title, image }) => {
   return (
     <motion.article
-      className="border w-56 h-56 flex flex-col justify-between items-center cursor-pointer m-2"
+      className="border w-56 h-56 flex flex-col justify-center items-center cursor-pointer m-2 drop-shadow-xl"
       style={{
         backgroundImage: `url("/assets/image/${image}.jpg")`,
         backgroundPosition: "center",
@@ -13,11 +13,9 @@ const CardCollection = ({ title, image }) => {
       }}
       whileHover={{ scale: 1.1 }}
     >
-      <h6 className=" font-semibold text-xl p-5">{title}</h6>
-      <i className="flex gap-1 uppercase py-3 cursor-pointer">
-        <p>Acheter maintenant</p>
-        <ArrowRoundedIcon />
-      </i>
+      <h6 className=" font-semibold text-xl p-5 bg-black bg-opacity-40 w-full text-center text-white">
+        {title}
+      </h6>
     </motion.article>
   );
 };

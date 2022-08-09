@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <form
       action=""
-      className="m-5 w-full flex justify-center items-center max-w-xl"
+      className="m-5 w-full flex justify-center items-center max-w-md"
     >
       <select
         name="search_bar"
