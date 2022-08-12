@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const CardCollection = ({ title, image }) => {
   return (
     <motion.article
-      className="border w-56 h-56 flex flex-col justify-center items-center cursor-pointer m-2 drop-shadow-xl"
+      className="border w-56 h-56 flex flex-col justify-center items-center cursor-pointer m-2 drop-shadow-xl border-4 border-solid border-white"
       style={{
         backgroundImage: `url("/assets/image/${image}.jpg")`,
         backgroundPosition: "center",

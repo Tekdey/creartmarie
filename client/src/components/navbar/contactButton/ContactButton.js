@@ -4,7 +4,10 @@ import PropType from "prop-types";
 const ContactButton = ({ children, href, icon }) => {
   return (
     <li>
-      <a href={href} className="flex items-center p-2 hover:text-white">
+      <a
+        href={href}
+        className="flex items-center p-2 gap-3 hover:text-white transition-colors"
+      >
         <span className="text-red-700">{icon}</span>
         {children}
       </a>

@@ -1,0 +1,77 @@
+[
+    {
+        "type":"Category",
+        "name":"Toute les categories",
+        "href":"#"
+    },
+    {
+        "type":"Category",
+        "name":"Bougies",
+        "href":"#"
+    },
+    {
+        "type":"Category",
+        "name":"Savon",
+        "href":"#"
+    },
+    {
+        "type":"Category",
+        "name":"Poterie",
+        "href":"#"
+    },
+    {
+        "type":"Category",
+        "name":"Bijoux",
+        "href":"#"
+    },
+    {
+        "type":"Service",
+        "name":"Mon compte",
+        "href":"#"
+    },
+    {
+        "type":"Service",
+        "name":"Voir le panier",
+        "href":"#"
+    },
+    {
+        "type":"Service",
+        "name":"Historique d'achat",
+        "href":"#"
+    },
+    {
+        "type":"Service",
+        "name":"Liste de souhait",
+        "href":"#"
+    },
+    {
+        "type":"Service",
+        "name":"Help",
+        "href":"#"
+    },
+    {
+        "type":"Information",
+        "name":"A propos",
+        "href":"#"
+    },
+    {
+        "type":"Information",
+        "name":"Contact",
+        "href":"#"
+    },
+    {
+        "type":"Information",
+        "name":"Mention légales",
+        "href":"#"
+    },
+    {
+        "type":"Information",
+        "name":"Infos cookies",
+        "href":"#"
+    },
+    {
+        "type":"Information",
+        "name":"CGV",
+        "href":"#"
+    }
+]
