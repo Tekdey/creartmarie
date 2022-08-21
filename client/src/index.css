@@ -11,6 +11,6 @@
         @apply h-screen w-screen
     }
     #root{
-        @apply w-screen h-screen  overflow-x-hidden
+        @apply w-screen h-screen overflow-x-hidden bg-gradient-to-t from-indigo-500 to-orange-500
     }
 }
