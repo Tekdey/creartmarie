@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="flex justify-between bg-gray-800 text-slate-200">
-        <ul className="flex text-sm font-medium">
+      <div className="flex justify-end lg:justify-between bg-gray-800 text-slate-200">
+        <ul className="hidden lg:flex text-sm font-medium">
           <ContactButton href="#" icon={<PhoneIcon />}>
             +021-95-51-84
           </ContactButton>

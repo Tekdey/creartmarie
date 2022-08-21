@@ -9,8 +9,6 @@ const FooterList = ({ title }) => {
       .then((res) => setData(res));
   }, []);
 
-  console.log(data);
-
   return (
     <ul className="flex flex-col gap-4">
       <h1 className="uppercase font-semibold text-xl text-white py-2">
