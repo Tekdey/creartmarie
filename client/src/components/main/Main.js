@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import SearchBar from "../navbar/searchBar/SearchBar";
 import CartButton from "../navbar/cartButton/CartButton";
 import CardCollection from "./cardCollection/CardCollection";
@@ -7,47 +7,9 @@ import Carousel from "infinite-react-carousel";
 import { FilledMailIcon, LocationIcon, MailIcon, PhoneIcon } from "../../icons";
 import ContactButton from "../navbar/contactButton/ContactButton";
 import FooterList from "./footerList/FooterList";
+import { data } from "../../context/index";
 
 const Main = () => {
-  const [data, setData] = useState([
-    {
-      productName: "Bougies avec boix flotté 1",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-    {
-      productName: "Bougies avec boix flotté 2",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-    {
-      productName: "Bougies avec boix flotté 3",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-    {
-      productName: "Bougies avec boix flotté 4",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-    {
-      productName: "Bougies avec boix flotté 5",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-    {
-      productName: "Bougies avec boix flotté 6",
-      image: "Bougies",
-      price: "20",
-      category: "Bougies",
-    },
-  ]);
-
   const [deviceSize, setDeviceSize] = useState(window.innerWidth);
   const [slideToShow, setSlideToShow] = useState(
     window.innerWidth > 1024 ? 3 : window.innerWidth < 550 ? 1 : 2
@@ -109,7 +71,7 @@ const Main = () => {
               centerMode={true}
               arrows={slideToShow === 1 ? false : true}
             >
-              {data.map((item, index) => {
+              {data?.map((item, index) => {
                 return (
                   <CardBestSeller
                     key={index}
@@ -137,7 +99,7 @@ const Main = () => {
             </h2>
             <form
               action=""
-              className="flex flex-col gap-2 xs:flex-row justify-center sm:w-[500px]"
+              className="flex flex-col gap-2 xs:flex-row justify-center sm:w-[500px] w-[300px]"
             >
               <input
                 type="email"
