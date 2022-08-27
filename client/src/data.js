@@ -5,6 +5,7 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
   {
     id: 6,
@@ -40,5 +45,6 @@ export const data = [
     image: "Bougies",
     price: "20",
     category: "Bougies",
+    amount: 1,
   },
 ];
