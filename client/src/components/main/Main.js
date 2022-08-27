@@ -7,7 +7,7 @@ import Carousel from "infinite-react-carousel";
 import { FilledMailIcon, LocationIcon, MailIcon, PhoneIcon } from "../../icons";
 import ContactButton from "../navbar/contactButton/ContactButton";
 import FooterList from "./footerList/FooterList";
-import { data } from "../../context/index";
+import { data } from "../../data";
 
 const Main = () => {
   const [deviceSize, setDeviceSize] = useState(window.innerWidth);

@@ -5,12 +5,13 @@
 @tailwind utilities;
 
 
-@layer base{
-    html{
+@layer base {
+    html {
         font-family: 'Poppins', sans-serif;
         @apply h-screen w-screen
     }
-    #root{
+
+    #root {
         @apply w-screen h-screen overflow-x-hidden bg-gradient-to-t from-indigo-500 to-slate-900
     }
 }
